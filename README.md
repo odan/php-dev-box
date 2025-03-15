@@ -25,14 +25,9 @@ Once the setup is complete, you can **start or stop**  Apache and MySQL at any t
 .\xampp-control.ps1
 ```
 
-## Screenshot 
-
-
-Here's a placeholder for a screenshot so you can picture it all:
-
+### Screenshot 
 
 ![Screenshot](screenshot.jpg)
-
 
 ## License 
 
