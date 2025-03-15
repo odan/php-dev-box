@@ -31,9 +31,7 @@ Once the setup is complete, you can **start or stop**  Apache and MySQL at any t
 Here's a placeholder for a screenshot so you can picture it all:
 
 
-```css
 ![Screenshot](screenshot.jpg)
-```
 
 
 ## License 
