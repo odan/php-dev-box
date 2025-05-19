@@ -4,26 +4,19 @@
 
 Since [XAMPP](https://www.apachefriends.org/) isn’t actively developed anymore, I went ahead and created this package to help you install and manage Apache, PHP (with XDebug) and MySQL on Windows using PowerShell. 
 
-## Getting Started 
+## Getting started 
 
+1. **Clone or Download** this repository to your machine.
  
-2. **Clone or Download** this repository to your machine.
+2. **Open PowerShell as administrator**  (important to ensure everything installs smoothly).
  
-4. **Open PowerShell as administrator**  (important to ensure everything installs smoothly).
- 
-6. **Run**  `.\xampp-setup.ps1` to install Apache, PHP, MySQL.
+3. **Run**  `.\xampp-setup.ps1` to install Apache, PHP, MySQL.
 
   - The script will handle the downloading and configuring of these components for you.
  
-8. **Follow any on-screen prompts** and let the script do its magic.
+4. **Follow any on-screen prompts** and let the script do its magic.
 
-## Controlling Services 
-
-Once the setup is complete, you can **start or stop**  Apache and MySQL at any time using the `xampp-control.ps1` script:
-
-```powershell
-.\xampp-control.ps1
-```
+5. Run: `xampp-launcher.exe` to start the services.
 
 ### Screenshot 
 
