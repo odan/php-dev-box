@@ -153,9 +153,23 @@ foreach ($line in $lines) {
         continue
     }
 
+    # Enable mod_rewrite
+    if ($line -eq '#LoadModule rewrite_module modules/mod_rewrite.so') {
+        $newLines.Add('LoadModule rewrite_module modules/mod_rewrite.so') | Out-Null
+        continue
+    }
+
     # Keep all other lines
     $newLines.Add($line) | Out-Null
 }
+
+# Find the <Directory "${XROOT}/htdocs"> block and replace AllowOverride
+$content = [regex]::Replace(
+    $content,
+    '(<Directory\s+"(?:\$\{XROOT\}|\\$\{XROOT\})/htdocs">.*?)(AllowOverride\s+)(None)',
+    '${1}${2}All',
+    'Singleline'
+)
 
 # Append PHP config lines
 $newLines.Add('') | Out-Null
