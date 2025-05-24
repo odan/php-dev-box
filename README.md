@@ -58,7 +58,7 @@ This tool is designed for **local development only**. Never expose it to a publi
 
 ### Screenshot 
 
-![Screenshot](assets/screenshot.png)
+<img src="assets/screenshot.png" width="596" />
 
 ## Contributing
 
