@@ -58,7 +58,7 @@ This tool is designed for **local development only**. Never expose it to a publi
 
 ### Screenshot 
 
-![Screenshot](screenshot.jpg)
+![Screenshot](assets/screenshot.png)
 
 ## Contributing
 
