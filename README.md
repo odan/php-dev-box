@@ -4,7 +4,7 @@
 
 A lightweight, developer-friendly local server stack featuring **PHP**, **Apache**, and **MySQL** — designed for fast, simple local development without the bloat of traditional stacks.
 
-## 🚀 Features
+## Features
 
 - ✅ Easy to install and run
 - 🔧 Includes PHP, Apache and MySQL
@@ -12,7 +12,7 @@ A lightweight, developer-friendly local server stack featuring **PHP**, **Apache
 - 🗂 Simple status UI
 - 💻 Designed for developers building PHP applications
 
-## 📦 What's inside
+## What's inside
 
 | Component | Version | Notes                      |
 |-----------|---------|----------------------------|
@@ -58,7 +58,7 @@ Once the Apache webserver is running, open your preferred browser and navigate t
 
 The default document root (where you place your PHP files) is:
 
-`c:/xampp/htdocs/`
+`c:\xampp\htdocs`
 
 ## Limitations
 
