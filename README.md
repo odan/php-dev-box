@@ -56,7 +56,7 @@ c:\xampp\devbox.exe
 
 This tool is designed for **local development only**. Never expose it to a public network.
 
-### Screenshot 
+## Screenshot 
 
 <img src="assets/screenshot.png" width="596" />
 
