@@ -58,7 +58,7 @@ This tool is designed for **local development only**. Never expose it to a publi
 
 ## Screenshot 
 
-<img src="assets/screenshot.png" width="596" />
+<img src="assets/screenshot.png?_cache=0" width="596" />
 
 ## Contributing
 
