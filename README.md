@@ -52,6 +52,17 @@ Start the local server with one click (GUI) or via terminal:
 c:\xampp\devbox.exe
 ```
 
+Once the Apache webserver is running, open your preferred browser and navigate to:
+
+<http://localhost>
+
+**Note:** The server currently listens on port 80 by default.
+Changing the HTTP port is not supported at this time. Support for custom ports may be added in a future release.
+
+The default document root (where you place your PHP files) is:
+
+`c:/xampp/htdocs/`
+
 ## Security
 
 This tool is designed for **local development only**. Never expose it to a public network.
