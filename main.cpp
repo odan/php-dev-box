@@ -189,7 +189,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
     wc.cbSize = sizeof(WNDCLASSEX);
     wc.lpfnWndProc = WndProc;
     wc.hInstance = hInstance;
-    wc.lpszClassName = "XamppControlClass";
+    wc.lpszClassName = "DevBoxControlClass";
     wc.hbrBackground = (HBRUSH)(COLOR_WINDOW);
 
     HICON hAppIcon = NULL;
@@ -219,7 +219,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
     int x = (screenWidth - winWidth) / 2;
     int y = (screenHeight - winHeight) / 2;
 
-    HWND hwnd = CreateWindow("XamppControlClass", "XAMPP Control Panel",
+    HWND hwnd = CreateWindow("DevBoxControlClass", "DevBox Control Panel",
         WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX,
         x, y, winWidth, winHeight,
         NULL, NULL, hInstance, NULL);
