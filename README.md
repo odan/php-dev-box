@@ -56,12 +56,17 @@ Once the Apache webserver is running, open your preferred browser and navigate t
 
 <http://localhost>
 
-**Note:** The server currently listens on port 80 by default.
-Changing the HTTP port is not supported at this time. Support for custom ports may be added in a future release.
-
 The default document root (where you place your PHP files) is:
 
 `c:/xampp/htdocs/`
+
+## Limitations
+
+* The server currently listens on port 80.
+Changing the HTTP port is not supported at this time.
+
+* HTTPS is not supported in this version. All traffic runs over plain HTTP.
+SSL/TLS support may be added in a future release.
 
 ## Security
 
