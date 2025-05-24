@@ -1,6 +1,6 @@
 # PHP Dev Box
 
-![Logo](./logo.svg)
+<img src="./assets/logo.svg" width="100" height="100" />
 
 A lightweight, developer-friendly local server stack featuring **PHP**, **Apache**, and **MySQL** — designed for fast, simple local development without the bloat of traditional stacks.
 

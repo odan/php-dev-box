@@ -8,7 +8,6 @@
 #define ID_BTN_MYSQL 2
 #define ID_LOG_LIST 3
 #define TIMER_ID 100
-#define IDI_APP_ICON 101
 
 const std::string apacheExe = "httpd.exe";
 const std::string apachePath = "C:\\xampp\\apache\\bin\\httpd.exe";
