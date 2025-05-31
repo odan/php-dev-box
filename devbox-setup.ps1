@@ -342,6 +342,3 @@ Write-Host "`n==============================================="
 Write-Host " Installation completed successfully!"
 Write-Host "==============================================="
 
-# Start the control panel
-.\xampp-control.ps1
-
