@@ -1,0 +1,10 @@
+.idea/
+.DS_STORE
+cache.properties
+.vscode
+
+vendor/
+build/
+node_modules/
+
+.env
