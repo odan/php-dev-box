@@ -224,6 +224,7 @@ Invoke-Expression "curl.exe -L `"$caCertificateUrl`" -o `"$apacheDir\bin\curl-ca
 Rename-Item -Path "$phpDir\php.ini-development" -NewName "$phpDir\php.ini"
 
 $content = Get-Content "$phpDir\php.ini"
+$content = $content -replace '^memory_limit = 128M$', 'memory_limit = 512M'
 $content = $content -replace '^;include_path = "\.:/php/includes"$', 'include_path = "."'
 $content = $content -replace '^;extension_dir = "ext"$', 'extension_dir = "\xampp\php\ext"'
 $content = $content -replace '^;upload_tmp_dir =$', 'upload_tmp_dir = "\xampp\tmp"'
