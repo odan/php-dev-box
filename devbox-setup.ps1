@@ -1,13 +1,14 @@
 <#
   - Must run as Administrator
   - Requires PowerShell 5.0+
+  - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 #>
 
 # -----------------------------
 # Variables: Adjust as needed
 # -----------------------------
-$apacheUrl = "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.63-250207-win64-VS17.zip"
-$phpUrl = "https://windows.php.net/downloads/releases/php-8.4.5-Win32-vs17-x64.zip"
+$apacheUrl = "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.65-250724-Win64-VS17.zip"
+$phpUrl = "https://windows.php.net/downloads/releases/php-8.4.14-Win32-vs17-x64.zip"
 #$mysqlUrl = "https://dev.mysql.com/get/Downloads/MySQL-9.2/mysql-9.2.0-winx64.zip"
 $mysqlUrl = "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.4-winx64.zip"
 $xdebugUrl = "https://xdebug.org/files/php_xdebug-3.4.2-8.4-ts-vs17-x86_64.dll"
